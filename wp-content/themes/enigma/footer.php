@@ -1,21 +1,14 @@
 <!-- enigma Callout Section -->
 <?php $wl_theme_options = weblizar_get_options(); ?>
 <!-- Footer Widget Secton -->
-<div class="enigma_footer_widget_area">	
+<div class="enigma_footer_widget_areax">	
 	<div class="container">
 		<div class="row">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 			<?php 
-			if ( is_active_sidebar( 'footer-widget-area' ) ){ 
-				dynamic_sidebar( 'footer-widget-area' );
-			} else 
-			{ 
-			$args = array(
-			'before_widget' => '<div class="col-md-3 col-sm-6 enigma_footer_widget_column">',
-			'after_widget'  => '</div>',
-			'before_title'  => '<div class="enigma_footer_widget_title">',
-			'after_title'   => '<div class="enigma-footer-separator"></div></div>' );
-			the_widget('WP_Widget_Pages', null, $args);			
-			} ?>
+			if ( function_exists( 'smuzform_render_form' ) ) { smuzform_render_form('162'); }
+			?>
+		</div>		
 		</div>		
 	</div>	
 </div>

@@ -443,8 +443,7 @@
 }
 .enigma_team_caption:hover  h3 a ,.enigma_team_caption:hover  small{
    color: #ffffff;
-}
-
+} 
 .enigma_team_wrapper:hover .enigma_team_caption{
  background: #31A3DD;
 }
