@@ -1,10 +1,10 @@
 === Ultimate Responsive Image Slider ===
 Contributors: weblizar
 Donate link: http://www.weblizar.com/
-Tags: slider, slider plugin, best slider plugin, image slide show, responsive slider, image slider, slider shortcode, slider widget, responsive image slider, theme slider, post slider, page slider, free slider plguin 
+Tags: slider, slider plugin, best slider plugin, image slide show, responsive slider, image slider, wordpress slider, slider widget, responsive image slider, theme slider, post slider, page slider, free slider plugin 
 Requires at least: 3.8
-Tested up to: 4.4.2
-Stable tag: 2.9.4.1
+Tested up to: 4.5.2
+Stable tag: 2.9.4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,9 +14,9 @@ Add Fully Responsive Image Slider To Your WordPress Blog
 
 Ultimate responsive image slider a fully responsive slider plugin for WordPress blog users. You can add infinite image slides in a single slider using multiple image uploader. You can publish unlimited slider on your blog.
 
-Images slider has various settings like customizable height and width, auto play slides, slide thumbnails, navigation buttons and many more. You can configure each slider setting individually and accordingly to you. You can show slider within the Page or Post content.
+Images slider has various settings like customizable height and width, auto play slides, slide thumbnails, navigation buttons and much more. You can configure each slider setting individually and accordingly to you. You can show slider within the Page or Post content.
 
-Using **[URIS id=123]** shortcode, you can publish image slider in any Page or Post in your WordPress sites.
+Using **[URIS id=123]** shortcode, you can publish image slider on any Page or Post in your WordPress sites.
 
 **Free Plugin Demo:** [Ultimate Responsive Image Slider Free Demo](http://demo.weblizar.com/ultimate-responsive-image-slider-free/)
 
@@ -46,7 +46,7 @@ Using **[URIS id=123]** shortcode, you can publish image slider in any Page or P
 
 
 ### Ultimate Responsive Image Slider Pro Features:
-A Perfect Responsive Image Slider plugin for WordPress. Contain 5 types of slider layout. Tested on all browser like Chrome, Mozilla, Safari, IE etc.. 
+A Perfect Responsive Image Slider plugin for WordPress. Contains 5 types of slider layout. Tested on all browser like Chrome, Mozilla, Safari, IE etc.. 
 
 
 > * Fully Responsive Slider Plugin
@@ -65,7 +65,7 @@ A Perfect Responsive Image Slider plugin for WordPress. Contain 5 types of slide
 > * 5 Slider Layout
 > * Unlimited Color Scheme
 > * Touch Slider
-> * Full Screen slideshow
+> * Full-Screen slideshow
 > * Thumbnail Slider
 > * Lightbox Integrated
 > * External Link Button
@@ -87,7 +87,7 @@ A Perfect Responsive Image Slider plugin for WordPress. Contain 5 types of slide
 > * All Browser Compatible
 >
 
-Ultimate Responsive Image Slider Pro is very flexible and and compatible on all devices like ipad,iphone smart phone etc. 
+Ultimate Responsive Image Slider Pro is very flexible and compatible with all devices like iPad, iPhone, smartphone etc. 
 
 > #### **Live Demos**
 
@@ -100,7 +100,7 @@ Ultimate Responsive Image Slider Pro is very flexible and and compatible on all 
 
 ### Plugin Admin Features
 
-Plugin has extreme Admin dashboard. Plugin settings is very easy and user friendly.With Multiple Image Uploader you are easily add multiple images in seconds
+The Plugin has extreme Admin dashboard. Plugin settings are very easy and user-friendly. With Multiple Image Uploader you easily add multiple images in seconds
 
 > ### Try Ultimate Responsive Image Slider Pro Demo: [Live Demo](http://demo.weblizar.com/ultimate-responsive-image-slider-pro/)
 >
@@ -138,6 +138,19 @@ If you have any question contact us at here: [Plugin Support Forum ](http://word
 == Changelog ==
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
+
+= Version 2.9.4.5 27/05/2016 =
+* other plugin conflict fix
+* shuffle setting fix
+
+= Version 2.9.4.4 11/04/2016 =
+* small updates
+
+= Version 2.9.4.3 11/04/2016 =
+* Minor updates
+
+= Version 2.9.4.2 06-Feb-2016 =
+* Minor testing and updates
 
 = Version 2.9.4.1 06-Feb-2016 =
 * HTML tag display fixed

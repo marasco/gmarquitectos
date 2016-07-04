@@ -14,6 +14,12 @@ $post_id = get_the_ID();
  * Get All Slides Details Post Meta
  */
 $RPGP_AllPhotosDetails = unserialize(base64_decode(get_post_meta( get_the_ID(), 'ris_all_photos_details', true)));
+if($WRIS_L3_Slide_Order == "DESC" ) {
+	$RPGP_AllPhotosDetails = array_reverse($RPGP_AllPhotosDetails, true);
+}
+if($WRIS_L3_Slide_Order == "shuffle" ) {
+	$shuffle = shuffle($RPGP_AllPhotosDetails);
+}
 $TotalImages =  get_post_meta( get_the_ID(), 'ris_total_images_count', true );
 $i = 1;
 $j = 1;

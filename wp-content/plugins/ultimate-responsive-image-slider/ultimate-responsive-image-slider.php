@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Ultimate Responsive Image Slider
- * Version: 2.9.4.1
+ * Version: 2.9.4.5
  * Description: Add unlimited image slides using Ultimate Responsive Image Slider in any Page and Post content to give an attractive mode to represent contents.
  * Author: Weblizar
  * Author URI: https://weblizar.com/plugins/ultimate-responsive-image-slider-pro/
@@ -163,7 +163,10 @@ class WRIS {
 	//Required JS & CSS
 	public function ris_admin_print_scripts() {
         wp_enqueue_script('media-upload');
-        wp_enqueue_script('rpgp-media-uploader-js', WRIS_PLUGIN_URL . 'js/rpgp-multiple-media-uploader.js', array('jquery'));
+        wp_enqueue_script('uris-media-uploader-js', WRIS_PLUGIN_URL . 'js/uris-multiple-media-uploader.js', array('jquery'));
+	
+	
+		
 		wp_enqueue_media();
 		
 		//custom add image box css
@@ -367,7 +370,7 @@ class WRIS {
         </div>
 		
 		<!--Add New Image Button-->
-		<div class="rpg-image-entry add_rpg_new_image" id="rpg_gallery_upload_button" data-uploader_title="Upload Image" data-uploader_button_text="Select" >
+		<div class="rpg-image-entry add_rpg_new_image" id="uris_gallery_upload_button" data-uploader_title="Upload Image" data-uploader_button_text="Select" >
 			<div class="dashicons dashicons-plus"></div>
 			<p>
 				<?php _e('Add New Images', WRIS_TEXT_DOMAIN); ?>

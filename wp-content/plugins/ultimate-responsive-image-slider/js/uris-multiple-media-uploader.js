@@ -18,7 +18,7 @@ jQuery(function(jQuery) {
                 return false;
             });
             
-            jQuery('#rpg_gallery_upload_button').on('click', function(event) {
+            jQuery('#uris_gallery_upload_button').on('click', function(event) {
                 event.preventDefault();
                 if (file_frame) {
                     file_frame.open();
