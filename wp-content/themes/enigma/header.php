@@ -8,8 +8,18 @@
     <!--[if gt IE 8]><!-->
 <html <?php language_attributes(); ?>><!--<![endif]-->
 <head>
+	<title>GM-ARQUITECTOS.COM - Ituzaingó / Lomas del Mirador</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="Description" CONTENT="Arquitectura en Ituzaingó / Lomas del Mirador. Planos Municipales - Obras - PROCREAR - Ampliaciones - Revaluos - Cédulas Catastrales - Subdivisiones.">
+	<meta name="Keywords" CONTENT="Arquitectura, Arquitectos, Ituzaingó, Lomas del Mirador, Planos, Obras, Ampliaciones, Subdivisiones, Planos, Créditos, Procrear">
+
+	<meta property="og:title" content="GM-ARQUITECTOS.COM - Ituzaingó / Lomas del Mirador" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.gm-arquitectos.com" />
+	<meta property="og:image" content="http://gm-arquitectos.com/share.png" />
+
+
     <meta charset="<?php bloginfo('charset'); ?>" />	
 	<?php $wl_theme_options = weblizar_get_options(); ?>
 	<?php if($wl_theme_options['upload_image_favicon']!=''){ ?>
@@ -17,7 +27,6 @@
 	<?php } ?>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
 	<?php wp_head(); ?>
-	<title>GMARQUITECTOS.COM</title>
 </head>
 <body <?php body_class(); ?>>
 <div>

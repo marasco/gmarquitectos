@@ -13,6 +13,9 @@
 		</div>		
 	</div>	
 </div>
+<div class="row">
+<iframe width="100%" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2dq1R2PIvJURvpoAk9dcgKk&amp;zoom=12&amp;key=AIzaSyDp7oBi3rLH9Is8ZMpnGbCSD0ohoWkpBLk" allowfullscreen></iframe>
+</div>
 <div class="enigma_footer_area">
 		<div class="container">
 			<div class="col-md-12">
